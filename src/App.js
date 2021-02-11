@@ -39,6 +39,9 @@ function App() {
         <button className="mt-2" onClick={() => add(['Banana', 'Apple'])}>
           Insert Items on arr
         </button>
+        <button className="mt-2" onClick={() => customlog('', 1_000_000)}>
+          Log without message on param when call function
+        </button>
       </header>
     </div>
   );

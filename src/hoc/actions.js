@@ -16,7 +16,7 @@ export default (state, setData) => ({
 
   customlog: (message, value) => {
     if (!value && !message) {
-      return console.log('Please, send a value and a message to log.');
+      return console.log('Please, send params to log.');
     }
 
     !message
